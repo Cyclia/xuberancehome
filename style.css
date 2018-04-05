@@ -1,9 +1,16 @@
 body   {
     background-color: #71A9D0;
     font-family: 'Source Code Pro', monospace;
-    margin-top: 25vh;
+    margin-top: 10vh;
     margin-left: 20px;
     margin-right: 20px;
+
+    /* background image options */
+    background-image: url("img/construction.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: auto 70%
     }
 
 .container {
@@ -13,3 +20,9 @@ body   {
     justify-content: center;
     align-items: center;
     }
+
+.text-card {
+    background: #f5efefb3;
+    padding: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
